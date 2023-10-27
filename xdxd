@@ -1,0 +1,42 @@
+La Empresa MENZERNA SA es una fábrica que fabrica cuatro tipos de productos (1-4) generados
+aleatoriamente
+• Los cuatro productos tienen secuencias diferentes de operaciones tal como se muestra en dicha tabla La Empresa MENZERNA SA es una fábrica que fabrica cuatro tipos de productos ( 1-4) generados
+aleatoriamente
+1 Ensamblaje – Pulido – Pintura - Empaque
+2 Ensamblaje – Pulido – Pintura - Empaque
+3 Pulido – Pintura - Empaque
+4 Pulido - Empaque
+• El tiempo en duración de cada secuencia es la que se indica en la siguiente tabla:
+SECUENCIA TIEMPO EN
+MINUTOS
+Ensamblaje 15
+Pulido 30
+Pintura 10
+Empaque 5
+• La fábrica opera por día en un tiempo de 10 horas (600 minutos). Se desea calcular la producción para 4 días
+(2400 minutos).
+• Todos los productos entran a una COLA según orden de llegada, tal como se indica en la siguiente tabla
+PRODUCTO PRIORIDAD
+1 - 2
+2 - 1
+3 - 4
+4 - 3
+• Reporte de Cuatro Días en COLA:
+• Para ser atendidos los productos que están en cola, se desarma la cola y deben pasar a una cola con
+prioridad. Al desarmar la cola, la cola debe quedar vacía e informar mediante un mensaje.
+• Reporte de Cuatro Días en cola según prioridad:
+FASE DE TRANSPORTE – COLA (AGREGARSE A LA COLA DE PRIORIDAD LA FASE DE PRODUCCIÓN)
+• Para agregarlo a la cola considere su prioridad.
+• Es esta fase la empresa contrata los servicios de 3 camiones que cobran un flete por kilo, tal como indica la
+siguiente tabla:
+CAMION FLETE KILO-SOLES
+1 S/.1.70
+2 S/.1.90
+3 S/.2.10
+• El peso de cada producto fabricado según producción está entre 35 a 65 kg
+
+• En cuanto a la Fase de Transporte se pide obtener:
+o Mínimo Flete
+o Máximo Flete
+o Promedio de Flete
+o Total de Flete
